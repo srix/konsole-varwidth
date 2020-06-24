@@ -1,10 +1,11 @@
 name: konsole
+base: core18
 version: 17.12.3
+description: Konsole version 17.12.3 . The last known terminal to mankind that can render variable width fonts (eg Tamil - தமிழ் correctly)
 grade: stable
 adopt-info: konsole
 
 confinement: strict
-base: core18
 
 apps:
   konsole:
@@ -13,6 +14,10 @@ apps:
     extensions:
       - kde-neon
     plugs:
+      - desktop
+      - desktop-legacy
+      - wayland
+      - unity7
       - home
       - opengl
       - network
