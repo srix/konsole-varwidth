@@ -1,3 +1,5 @@
+Check Detailed documenttaon here (https://github.com/srix/konsole-varwidth/wiki)
+
 # Build instructions
 snapcraft
 
